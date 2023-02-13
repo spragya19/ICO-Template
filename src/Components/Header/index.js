@@ -40,8 +40,8 @@ const Header = () => {
 
   },[])
   return (
-    <section className="ico-nav">
-    <nav class="black-bg py-1 fixed-top " id="headerLight">
+    <section className="ico-nav ">
+    <nav class="black-bg py-1 fixed-top z-[9999] " id="headerLight">
       <div class="container flex flex-wrap items-center justify-between mx-auto px-3 md:px-0 ">
         <a href="/#" class="flex items-center">
           <img
