@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook";
-import { IoLogoTwitter } from "@react-icons/all-files/Io/IoLogoTwitter";
-import { FaLinkedinIn } from "@react-icons/all-files/Fa/FaLinkedinIn";
+// import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook";
+// import { IoLogoTwitter } from "@react-icons/all-files/Io/IoLogoTwitter";
+// import { FaLinkedinIn } from "@react-icons/all-files/Fa/FaLinkedinIn";
 const Team = () => {
   return (
     <section className=" py-10 team text-center mt-15 pb-20" id="team">
@@ -30,13 +30,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -58,13 +58,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -86,13 +86,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -114,13 +114,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -185,13 +185,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -213,13 +213,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
@@ -241,13 +241,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>

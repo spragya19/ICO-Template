@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import Apps from '../src/Components/Apps'
 import Banner from '../src/Components/Banner'
 import Contact from '../src/Components/Contact'

@@ -2,7 +2,6 @@
 import Header from '../src/Components/Header'
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import Script from 'next/script'
 import Head from 'next/head'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

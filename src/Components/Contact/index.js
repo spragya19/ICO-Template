@@ -1,6 +1,5 @@
 import React from "react";
 
-import { AiFillPhone } from "@react-icons/all-files/Ai/AiFillPhone";
 
 const Contact = () => {
   return (
