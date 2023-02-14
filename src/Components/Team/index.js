@@ -157,13 +157,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      <FaFacebook />{" "}
+                      {/* <FaFacebook />{" "} */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <IoLogoTwitter />
+                      {/* <IoLogoTwitter /> */}
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      <FaLinkedinIn />
+                      {/* <FaLinkedinIn /> */}
                     </li>
                   </ul>
                 </div>
