@@ -1,5 +1,7 @@
 import React from "react";
 
+import { AiFillPhone } from "@react-icons/all-files/Ai/AiFillPhone";
+
 const Contact = () => {
   return (
     <section className=" py-10 contact mt-22 " id="contact">
@@ -20,9 +22,9 @@ const Contact = () => {
               Any question? Reach out to us and we’ll get back to you shortly.
             </p>
             <ul class="list-none">
-              <li className="text-[#637097] mt-6">+44 0123 4567</li>
-              <li className="text-[#637097] mt-6">info@company.com</li>
-              <li className="text-[#637097] mt-6">oin us on Telegram</li>
+             <li className="text-[#637097] mt-6">Phone - +44 0123 4567</li>
+              <li className="text-[#637097] mt-6">Email - info@company.com</li>
+              <li className="text-[#637097] mt-6">Join us on Telegram</li>
             </ul>
           </div>
 

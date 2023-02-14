@@ -6,9 +6,9 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 
 const Footer = () => {
-//   useEffect(()=>{
-//     AOS.init();
-//   },[])
+  //   useEffect(()=>{
+  //     AOS.init();
+  //   },[])
   return (
     <>
       <section className=" footer p-8">
@@ -35,10 +35,10 @@ const Footer = () => {
   
 </div>
         </div>
-        <footer class="text-center bg-[#0d6efd] text-white mt-36">
+        <footer class="text-center text-white">
   <div class="container px-6 pt-6">
     <div class="flex justify-center mb-6">
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -55,7 +55,7 @@ const Footer = () => {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -72,7 +72,7 @@ const Footer = () => {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -89,7 +89,7 @@ const Footer = () => {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -106,7 +106,7 @@ const Footer = () => {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -123,7 +123,7 @@ const Footer = () => {
         </svg>
       </a>
 
-      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -175,7 +175,7 @@ const Footer = () => {
           </div>
 
           <div class="md:mr-auto mb-6">
-            <button type="submit" class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+            <button type="submit" class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-#0d6efd hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
               Subscribe
             </button>
           </div>
@@ -183,7 +183,7 @@ const Footer = () => {
       </form>
     </div>
 
-    <div class="mb-6 bg-[#0d6efd]">
+    <div class="mb-6 bg-[#zzzz]">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
@@ -191,92 +191,18 @@ const Footer = () => {
       </p>
     </div>
 
-    <div class="grid lg:grid-cols-4 md:grid-cols-2">
-      <div class="mb-6">
-        <h5 class="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a href="#!" class="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a href="#!" class="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a href="#!" class="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a href="#!" class="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    
   </div>
 
   <div class="text-center p-4">
     © 2021 Copyright:
-    <a class="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+    <a class="text-white">Blocktech Brew</a>
   </div>
 </footer>
         </div>
       </section>
+
+      
     </>
   );
 };

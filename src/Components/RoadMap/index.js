@@ -1,10 +1,41 @@
-import React from "react";
+/* eslint-disable @next/next/no-img-element */
+import React, { useEffect } from "react";
+import Slider from "react-slick";
 
 const index = () => {
+
+  // var settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   // arrows:false,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         arrows: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 767,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slideToScroll: 1,
+  //         arrows: true,
+  //       },
+  //     },
+  //   ],
+  // };
   return (
     <div>
       <section class="roadmap" id="roadmap">
+        
         <div class="cstm-container container">
+          
           <div class="roadmap_main">
             <div class="row text-center mb-5">
               <div class="col-lg-8 mx-auto">
