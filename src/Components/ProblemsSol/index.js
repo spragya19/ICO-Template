@@ -20,7 +20,7 @@ const ProblemSol = () => {
             issues surrounding cross-border payments, data accessibility and
             payment.
           </p>
-          <div class="grid grid-cols-3 gap-4 mt-12">
+          <div class="grid grid-cols-3 gap-3 mt-12">
             <div>
               {" "}
               <p className="text-white text-3xl font-bold">
@@ -50,7 +50,7 @@ const ProblemSol = () => {
                 qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
-            <div className=" bg-[#3a31315c] item-center pl-4 pb-10 pt-6 w-[350px] rounded-lg">
+            <div className=" item-center pl-4 pb-10 pt-6  rounded-lg">
               {" "}
               <p className="text-[#fee600] text-l font-bold mt-5">
                 OUR SOLUTION

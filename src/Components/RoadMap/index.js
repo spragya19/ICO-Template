@@ -32,7 +32,7 @@ const index = () => {
   // };
   return (
     <div>
-      <section class="roadmap" id="roadmap">
+      <section class="roadmap" id="roadMap">
         
         <div class="cstm-container container">
           

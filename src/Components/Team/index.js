@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-// import { FaFacebook } from "@react-icons/all-files/fa/FaFacebook";
+import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 // import { IoLogoTwitter } from "@react-icons/all-files/Io/IoLogoTwitter";
 // import { FaLinkedinIn } from "@react-icons/all-files/Fa/FaLinkedinIn";
 const Team = () => {
@@ -30,13 +30,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -44,7 +44,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Waylon Dalton
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     CEO & Lead Blockchain
                   </p>
                 </div>
@@ -58,13 +58,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -72,7 +72,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Jonathan Rios
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     CTO & Software Engineer
                   </p>
                 </div>
@@ -86,13 +86,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -100,7 +100,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Jason Morales
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     Sr.Backend developer
                   </p>
                 </div>
@@ -114,13 +114,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -128,7 +128,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Joseph
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     Jordan Software Engineer
                   </p>
                 </div>
@@ -137,16 +137,13 @@ const Team = () => {
           </div>
         </div>
 
-
         <div class=" items-center">
           <div
             className="text-[white]  justify-center items-center  ml-10 md:mb-0 "
             data-aos="zoom-in"
           >
-            <p className="text-[#374574] text-4xl mt-16 font-bold">
-            ADVISORS
-            </p>
-           
+            <p className="text-[#374574] text-4xl mt-16 font-bold">ADVISORS</p>
+
             <div class="grid grid-cols-4 gap-4 mt-10">
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <div className="flex">
@@ -157,13 +154,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -171,7 +168,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Waylon Dalton
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     CEO & Lead Blockchain
                   </p>
                 </div>
@@ -185,13 +182,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -199,7 +196,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Jonathan Rios
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     CTO & Software Engineer
                   </p>
                 </div>
@@ -213,13 +210,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -227,7 +224,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Jason Morales
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     Sr.Backend developer
                   </p>
                 </div>
@@ -241,13 +238,13 @@ const Team = () => {
                   />
                   <ul className="py-12">
                     <li className="text-[#0d6efd] pb-2">
-                      {/* <FaFacebook />{" "} */}
+                      <BsFacebook />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <IoLogoTwitter /> */}
+                      <BsTwitter />
                     </li>
                     <li className="text-[#0d6efd] py-2">
-                      {/* <FaLinkedinIn /> */}
+                      <BsLinkedin />
                     </li>
                   </ul>
                 </div>
@@ -255,7 +252,7 @@ const Team = () => {
                   <div className="text-[#374574] text-2xl  font-bold">
                     Joseph
                   </div>
-                  <p class="text-[#0d6efd] text-base mt-6">
+                  <p class="text-[#0d6efd] text-sm mt-6">
                     Jordan Software Engineer
                   </p>
                 </div>
@@ -263,8 +260,6 @@ const Team = () => {
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
   );
