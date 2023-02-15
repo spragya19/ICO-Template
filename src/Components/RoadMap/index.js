@@ -1,8 +1,14 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect } from "react";
+import React, { useEffect }  from "react";
 import Slider from "react-slick";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const index = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   // var settings = {
   //   dots: true,
@@ -39,8 +45,8 @@ const index = () => {
           <div class="roadmap_main">
             <div class="row text-center mb-5">
               <div class="col-lg-8 mx-auto">
-                <p className="text-[#374574] text-4xl font-bold">RoadMap</p>
-                <p className="text-[#637097] text-l mt-5 ">
+                <p className="text-[#374574] text-4xl font-bold"  data-aos="fade-up"  data-aos-duration="1200">RoadMap</p>
+                <p className="text-[#637097] text-l mt-5"  data-aos="fade-up"  data-aos-duration="1200">
                   Problem & Solution We are creating tokens to solve the world’s
                   biggest blockchain <br />
                   issues surrounding cross-border payments, data accessibility
@@ -48,7 +54,7 @@ const index = () => {
                 </p>
               </div>
             </div>
-            <div class="roadmap_wrap">
+            <div class="roadmap_wrap"  data-aos="fade-up"  data-aos-duration="1200">
               <div class="roadmap_item">
                 <span class="roadmap_title">MID of Q1 2021</span>
                 <div class="roadmap_content">

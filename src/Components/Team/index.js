@@ -10,7 +10,7 @@ const Team = () => {
         <div class=" items-center">
           <div
             className="text-[white]  justify-center items-center  ml-10 md:mb-0 "
-            data-aos="zoom-in"
+           data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className="text-[#374574] text-4xl mt-16 font-bold">
               The Leadership Team
@@ -140,7 +140,7 @@ const Team = () => {
         <div class=" items-center">
           <div
             className="text-[white]  justify-center items-center  ml-10 md:mb-0 "
-            data-aos="zoom-in"
+           data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className="text-[#374574] text-4xl mt-16 font-bold">ADVISORS</p>
 

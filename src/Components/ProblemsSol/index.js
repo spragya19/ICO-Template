@@ -1,7 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useEffect} from "react";
 import Token from '../Token'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ProblemSol = () => {
+
+
+
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const toggle = () => {
     if (show === "hidden") {
       setShow("mobile-nav");
@@ -11,16 +20,16 @@ const ProblemSol = () => {
   };
   return (
     <section id="ico">
-      <div className=" solution  relative py-72">
-        <div className="container mx-auto ">
-          <p className="text-white text-4xl font-bold">Problem & Solution</p>
-          <p className="text-white text-l mt-5 ">
+      <div className=" solution  relative py-72" >
+        <div className="container mx-auto " >
+          <p className="text-white text-4xl font-bold " data-aos="fade-up"  data-aos-duration="1200">Problem & Solution</p>
+          <p className="text-white text-l mt-5 " data-aos="fade-up"  data-aos-duration="1200"> 
             Problem & Solution We are creating tokens to solve the world’s
             biggest blockchain <br />
             issues surrounding cross-border payments, data accessibility and
             payment.
           </p>
-          <div class="grid grid-cols-3 gap-3 mt-12">
+          <div class="grid grid-cols-3 gap-3 mt-12" data-aos="fade-up"  data-aos-duration="1200">
             <div>
               {" "}
               <p className="text-white text-3xl font-bold">
@@ -52,7 +61,7 @@ const ProblemSol = () => {
             </div>
             <div className=" item-center pl-4 pb-10 pt-6  rounded-lg">
               {" "}
-              <p className="text-[#fee600] text-l font-bold mt-5">
+              <p className="text-[#ffc123] text-l font-bold mt-5">
                 OUR SOLUTION
               </p>
               <p className="text-white text-3xl font-bold">

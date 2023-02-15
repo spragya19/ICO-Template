@@ -2,25 +2,26 @@
 import React from "react";
 
 const Token = () => {
+  
   return (
     <section id="token">
       <div className="container  mx-auto px-3">
-        <div class=" items-center">
+        <div class=" items-center" >
           <div
             className="text-[#374574]  justify-center items-center  mb-10 ml-10 md:mb-0"
-            data-aos="zoom-in"
+            
           >
-            <p className=" text-5xl font-semibold text-center  ">
+            <p className=" text-5xl font-semibold text-center" data-aos="fade-up"  data-aos-duration="1200">
               Pre-Sale & Values
             </p>
-            <p className=" text-l text-[#637097] mt-10 text-center mb-20 ">
+            <p className=" text-l text-[#637097] mt-10 text-center mb-20" data-aos="fade-up"  data-aos-duration="1200">
               ICO Crypto token will be released on the basis of Ethereum and
               Bitocin <br />
               platform. It’s compatibility of the token with third-party
               services wallets, <br /> exchanges etc, and provides easy-to-use
               integration.
             </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center" data-aos="fade-up"  data-aos-duration="1200">
               <div>
                 <div className="">
                   <ul class="list-outside list-disc flex flex-wrap">
@@ -88,13 +89,13 @@ const Token = () => {
                   PRE SALE SYTART IN
                 </h4>
                 <h1 className="mt-5 text-white text-6xl">75 : 09 : 28 : 10</h1>
-                <button className=" mt-5 text-white font-semibold hover:text-white py-2 px-4 border bg-[#fee600] hover:bg-[#39a9ff] rounded">
+                <button className=" mt-5 text-white font-semibold hover:text-white py-2 px-4 border bg-[#ffc123] hover:bg-[#39a9ff] rounded">
                   REGISTER & BUY TOKEN
                 </button>
               </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 items-center mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center mt-20"  data-aos="fade-up"  data-aos-duration="1200">
               <div>
                 <p className=" text-3xl font-semibold text-center  ">
                   Initial Token Distribution

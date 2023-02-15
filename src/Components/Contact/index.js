@@ -8,26 +8,26 @@ const Contact = () => {
         <div class=" items-center">
           <div
             className="text-[white]  justify-center items-center  ml-10 md:mb-0 "
-            data-aos="zoom-in"
+           data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className=" text-[#374574] text-5xl font-semibold text-center mt-28 ">
               Get In Touch
             </p>
           </div>
         </div>
-        <div class="grid grid-flow-row-dense grid-cols-3 ">
+        <div class="grid grid-flow-row-dense grid-cols-3 " >
           <div>
-            <p className="text-[#637097] pt-12">
+            <p className="text-[#637097] pt-12"   data-aos="fade-up"  data-aos-duration="1500">
               Any question? Reach out to us and we’ll get back to you shortly.
             </p>
-            <ul class="list-none">
+            <ul class="list-none"   data-aos="fade-up"  data-aos-duration="1500">
              <li className="text-[#637097] mt-6">Phone - +44 0123 4567</li>
               <li className="text-[#637097] mt-6">Email - info@company.com</li>
               <li className="text-[#637097] mt-6">Join us on Telegram</li>
             </ul>
           </div>
 
-          <div class="col-span-2 px-10">
+          <div class="col-span-2 px-10"   data-aos="fade-up"  data-aos-duration="1500">
             <div class="relative pt-8 ">
               <input
                 type="text"
@@ -71,7 +71,7 @@ const Contact = () => {
               </label>
             </div>
             <div  class="relative pt-8">
-            <button className="bg-[#39a9ff] text-white font-semibold hover:text-white py-2 px-4 border border-[#39a9ff] hover:bg-[#fee600]  hover:border-[#fee600] rounded">
+            <button className="bg-[#39a9ff] text-white font-semibold hover:text-white py-2 px-4 border border-[#39a9ff] hover:bg-[#ffc123]  hover:border-[#ffc123] rounded">
               Submit
               </button>
             </div>

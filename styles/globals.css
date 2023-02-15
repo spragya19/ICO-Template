@@ -348,7 +348,7 @@ background-color: rgb(107, 107, 107);
 }
 .roadmap .roadmap_item .roadmap_title{
   display: inline-block;
-  color: #00C4F4;
+  color:  #0d6efd;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -378,7 +378,7 @@ background-color: rgb(107, 107, 107);
   top: 0;
   width: 1px;
   height: 100%;
-  background: #00C4F4;
+  background:  #0d6efd;
 }
 .roadmap .roadmap_content .dot{
   position: absolute;
@@ -386,7 +386,7 @@ background-color: rgb(107, 107, 107);
   top: 0;
   width: 16px;
   height: 16px;
-  background: #00C4F4;
+  background:  #0d6efd;
   border-radius: 50%;
 }
 .roadmap .roadmap_content .dot::before {
@@ -397,7 +397,7 @@ background-color: rgb(107, 107, 107);
   transform: translate(-50% , -50%);
   width: 32px;
   height: 32px;
-  background: #00C4F4;
+  background:  #0d6efd;
   opacity: 0.2;
   border-radius: 50%;
 }

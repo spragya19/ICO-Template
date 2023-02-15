@@ -1,14 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Apps = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className=" py-10 app mt-28 pb-20" id="apps">
       <div className="container mx-auto px-3  " id="Banner">
         <div class=" items-center">
           <div
             className="text-[white]  justify-center items-center  ml-10 md:mb-0 "
-            data-aos="zoom-in"
+            data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className=" text-5xl font-semibold text-center mt-28 ">
               ICO Wallet App
@@ -25,7 +30,7 @@ const Apps = () => {
         <div class="grid  md:grid-cols-2">
           <div
             className="text-white   ml-10 md:mb-0"
-            data-aos="zoom-in"
+            data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className="text-l ">
             ICO Crypto Mobile for the future of funding that powering dat for
@@ -44,13 +49,13 @@ const Apps = () => {
   
 </ul>
 <div className="mt-11">
-<button className="bg-transparent text-white hover:text-white py-2 px-4 border border-[#fee600] hover:bg-[#fee600] rounded">
+<button className="bg-transparent text-white hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
   GETTHE APP NOW
               </button></div>
 
            
           </div>{" "}
-          <div className="text-white  " data-aos="zoom-in-down">
+          <div className="text-white  "   data-aos="fade-up"  data-aos-duration="1500">
             <img className=" w=[200px]" src="/assets/img/phone.png" alt=""></img>
           </div>
         </div>

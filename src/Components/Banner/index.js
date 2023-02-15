@@ -1,14 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="relative py-10" >
       <div className="container mx-auto px-3  banner" id="Banner">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center">
           <div
             className="text-white justify-center items-center md:items-start mb-10 ml-10 md:mb-0"
-            data-aos="zoom-in"
+            data-aos="fade-up"  data-aos-duration="1500"
           >
               
 
@@ -25,7 +30,7 @@ const Banner = () => {
               <br /> deeply research
             </p>
             <div className="xl:flex gap-x-14 mt-10 ">
-            <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#fee600] hover:bg-[#fee600] rounded">
+            <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
               TOKEN DISTRIBUTION
                 </button>
               <button className="transition duration-700 ease-in-out hover:scale-110 text-white  font-semibold  py-3 md:py-4 md:w-[170px] w-[130px] md:text-lg text-sm rounded-lg ">
@@ -43,7 +48,7 @@ const Banner = () => {
         <div class="grid grid-cols-1 md:grid-cols-2 items-center">
           <div
             className="text-black  justify-center items-center md:items-start mb-10 ml-10 md:mb-0"
-            data-aos="zoom-in"
+            data-aos="fade-up"  data-aos-duration="1500"
           >
             <p className=" text-xl font-semibold ">
               OUR

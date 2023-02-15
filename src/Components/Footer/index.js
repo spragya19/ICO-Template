@@ -12,9 +12,8 @@ const Footer = () => {
   return (
     <>
       <section className=" footer p-8">
-        <div className="mt-60  container mx-auto" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000">
+        <div className="mt-60  container mx-auto" 
+       data-aos="fade-up"  data-aos-duration="1500">
         <div>
             <h4 className="text-white text-center font-semibold mt-16 mb-16">
             AS SEEN IN

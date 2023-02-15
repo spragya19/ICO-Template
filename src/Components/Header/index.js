@@ -1,7 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [show, setShow] = useState("hidden");
   const [loader, setLoader] = useState(false);
   const toggle = () => {
@@ -23,6 +29,7 @@ const Header = () => {
           ?.classList.remove("header-light");
       }
     });
+   
 
     const li = document.querySelectorAll(".nav-item");
     const sec = document.querySelectorAll("section");
@@ -39,7 +46,7 @@ const Header = () => {
   return (
     <section className="ico-nav ">
       <nav class="black-bg py-1 fixed-top z-[9999] " id="headerLight">
-        <div class="container flex flex-wrap items-center justify-between mx-auto px-3 md:px-0 ">
+        <div class="container flex flex-wrap items-center justify-between mx-auto px-3 md:px-0  "  data-aos="fade-down"  data-aos-duration="1000">
           <a href="/#" class="flex items-center">
             <img src="/assets/img/logo.png" className="mr-3 h-10 " alt="Logo" />
           </a>
@@ -70,6 +77,7 @@ const Header = () => {
           <div
             class={`${show}  w-full lg:block lg:w-auto nav-list `}
             id="navbar-default"
+            
           >
             <ul class="flex flex-col items-center p-4 h-[calc(100vh_-_60px)] lg:h-auto overflow-y-scroll lg:overflow-y-hidden lg:flex-row xl:space-x-8 lg:space-x-4 ">
               <li>
@@ -118,12 +126,12 @@ const Header = () => {
               </li>
 
               <li>
-                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#fee600] hover:bg-[#fee600] rounded">
+                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
                   Login
                 </button>
               </li>
               <li>
-                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#fee600] hover:bg-[#fee600] rounded">
+                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
                   Signup
                 </button>
               </li>

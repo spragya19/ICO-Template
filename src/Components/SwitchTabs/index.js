@@ -24,10 +24,10 @@ const SwitchTabs = () => {
       <div className="container mx-auto" id="faq">
         <div class="row text-center">
           <div class="col-lg-8 mx-auto">
-            <p className="text-[#374574] text-4xl mt-16 font-bold">
+            <p className="text-[#374574] text-4xl mt-16 font-bold"   data-aos="fade-up"  data-aos-duration="1500">
               Frequently Asked Questions
             </p>
-            <p className="text-[#637097] text-l mt-5 ">
+            <p className="text-[#637097] text-l mt-5 "   data-aos="fade-up"  data-aos-duration="1500">
               Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies,
               and few <br /> others. If you have any other questions, please get
               in touch using the <br /> contact form below.
@@ -37,7 +37,7 @@ const SwitchTabs = () => {
         </div>
         {/* Tab Bar */}
         <div class="text-sm font-medium text-center text-gray-500  dark:text-gray-400 ">
-          <ul class="flex flex-wrap -mb-px justify-center">
+          <ul class="flex flex-wrap -mb-px justify-center"   data-aos="fade-up"  data-aos-duration="1500">
             <li class="mr-2">
               <button
                 onClick={changeHandler.bind(this, "tab1")}
@@ -102,7 +102,7 @@ const SwitchTabs = () => {
         </div>
 
         {/* Contents of Tab Bar */}
-        <div className="p-4">
+        <div className="p-4"   data-aos="fade-up"  data-aos-duration="1500">
           {tab.tab1 && (
             <div>
               <div class="grid grid-cols-1 md:grid-cols-2 items-center">
