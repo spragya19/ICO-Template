@@ -17,19 +17,25 @@ const Header = () => {
       setShow("hidden");
     }
   };
+  const [first, setfirst] = useState(true)
   useEffect(() => {
     window.addEventListener("scroll", () => {
       let scroll = window.scrollY;
       console.log("M", scroll);
       if (scroll > 100) {
         document.getElementById("headerLight")?.classList.add("header-light");
+        document.getElementById("headerLight")?.classList.remove("black-bg");
+        document.getElementById("headerLight")?.classList.remove("ico-nav");
+        setfirst(false)
       } else {
         document
           .getElementById("headerLight")
           ?.classList.remove("header-light");
+          document.getElementById("headerLight")?.classList.add("black-bg");
+        document.getElementById("headerLight")?.classList.add("ico-nav");
+          setfirst(true)
       }
     });
-   
 
     const li = document.querySelectorAll(".nav-item");
     const sec = document.querySelectorAll("section");
@@ -44,11 +50,19 @@ const Header = () => {
     window.addEventListener("scroll", activemenu);
   }, []);
   return (
-    <section className="ico-nav ">
-      <nav class="black-bg py-1 fixed-top z-[9999] " id="headerLight">
-        <div class="container flex flex-wrap items-center justify-between mx-auto px-3 md:px-0  "  data-aos="fade-down"  data-aos-duration="1000">
+    <section className="">
+      <nav class="black-bg py-1 fixed-top z-[9999]  ico-nav" id="headerLight">
+        <div
+          class="container flex flex-wrap items-center justify-between mx-auto px-3 md:px-0  "
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <a href="/#" class="flex items-center">
-            <img src="/assets/img/logo.png" className="mr-3 h-10 " alt="Logo" />
+            <img
+              src={first?"/assets/img/logo.png":"/assets/img/logo2.png"}
+              className="mr-3 h-10 pb-1 "
+              alt="Logo"
+            />
           </a>
           <button
             data-collapse-toggle="navbar-default"
@@ -77,23 +91,13 @@ const Header = () => {
           <div
             class={`${show}  w-full lg:block lg:w-auto nav-list `}
             id="navbar-default"
-            
           >
-            <ul class="flex flex-col items-center p-4 h-[calc(100vh_-_60px)] lg:h-auto overflow-y-scroll lg:overflow-y-hidden lg:flex-row xl:space-x-8 lg:space-x-4 ">
+            <ul class="flex flex-col items-center p-2 h-[calc(100vh_-_60px)] lg:h-auto overflow-y-scroll lg:overflow-y-hidden lg:flex-row xl:space-x-8 lg:space-x-4 mb-0">
               <li>
-                <a className="theme-color  nav-link" href="/#ico">
+                <a className="nav-link" href="/#ico">
                   WHAT IS ICO
                 </a>
               </li>
-              {/* <li>
-              <a
-                className="nav-link"
-                href="#"
-            
-              >
-                Our Package
-              </a>
-            </li> */}
               <li>
                 <a className="nav-link " href="/#token">
                   TOKEN
@@ -126,13 +130,13 @@ const Header = () => {
               </li>
 
               <li>
-                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
-                  Login
+                <button className={first?'text-white font-semibold hover:text-white py-2 px-4 border-[2px] border-[#ffc123] hover:bg-[#ffc123] text-sm rounded':'text-[#637097] font-semibold hover:text-white py-2 px-4 border-[2px] border-[#ffc123] hover:bg-[#ffc123] text-sm rounded'}>
+                  SIGN UP
                 </button>
               </li>
               <li>
-                <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
-                  Signup
+                <button className={first?'text-white font-semibold hover:text-white py-2 px-4 border-[2px] border-[#ffc123] hover:bg-[#ffc123] text-sm rounded':'text-[#637097] font-semibold hover:text-white py-2 px-4 border-[2px] border-[#ffc123] hover:bg-[#ffc123] text-sm rounded'}>
+                 LOG IN
                 </button>
               </li>
             </ul>

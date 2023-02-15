@@ -49,9 +49,9 @@ const Apps = () => {
   
 </ul>
 <div className="mt-11">
-<button className="bg-transparent text-white hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
-  GETTHE APP NOW
-              </button></div>
+<button className=" text-white font-semibold hover:text-white py-2 px-4 border-[2px] text-sm border-[#ffc123] hover:bg-[#ffc123] rounded">
+           GET THE APP NOW
+                </button></div>
 
            
           </div>{" "}

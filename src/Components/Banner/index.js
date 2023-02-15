@@ -30,11 +30,11 @@ const Banner = () => {
               <br /> deeply research
             </p>
             <div className="xl:flex gap-x-14 mt-10 ">
-            <button className=" text-white font-semibold hover:text-white py-2 px-4 border border-[#ffc123] hover:bg-[#ffc123] rounded">
+            <button className=" text-white font-semibold hover:text-white py-2 px-4 border-[2px] text-sm border-[#ffc123] hover:bg-[#ffc123] rounded">
               TOKEN DISTRIBUTION
                 </button>
-              <button className="transition duration-700 ease-in-out hover:scale-110 text-white  font-semibold  py-3 md:py-4 md:w-[170px] w-[130px] md:text-lg text-sm rounded-lg ">
-                DOWNLOAD
+              <button className="transition duration-700 ease-in-out hover:scale-110 text-white   font-semibold  py-3 md:py-4 md:w-[170px] w-[130px] md:text-lg text-sm rounded-lg ">
+                Download
               </button>
             </div>
           </div>{" "}
